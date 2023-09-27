@@ -127,8 +127,20 @@ img {
 }
 .hero {
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/background-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.hero-container {
 }
 .hero-slogan {
   color: #fff;
@@ -173,6 +185,16 @@ img {
 }
 .features-item {
   width: calc((100% - 48px * 2) / 3);
+}
+
+.features-icon-conteiner {
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  background-color: var(--CLOUD, #f4f4fd);
 }
 
 .features-title {
