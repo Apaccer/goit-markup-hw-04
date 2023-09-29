@@ -106,7 +106,7 @@ img {
   color: #404bbf;
 }
 
-.header-menu-item:first-child .header-menu-link::after {
+.header-menu-item:first-child .header-menu-link {
   color: #404bbf;
 }
 
@@ -118,7 +118,7 @@ img {
   border-radius: 2px;
   background-color: #404bbf;
   left: 0;
-  bottom: -1px;
+  bottom: -3px;
   position: absolute;
 }
 
