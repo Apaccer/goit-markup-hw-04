@@ -298,6 +298,7 @@ img {
   display: flex;
   align-items: flex-start;
   gap: 24px;
+  justify-content: center;
 }
 
 .social-icon-item {
@@ -305,7 +306,6 @@ img {
   height: 40px;
   flex-shrink: 0;
   border-radius: 50%;
-  justify-content: center;
 }
 
 .sicial-link {
@@ -389,7 +389,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 40px 32px 164px;
+  padding: 42px 32px;
   position: absolute;
   top: 0;
   left: 0;
