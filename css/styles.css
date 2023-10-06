@@ -772,15 +772,12 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: inline-flex;
-  align-items: center;
   position: relative;
 }
 
 .check-text a {
   color: #4d5ae5;
   text-decoration-line: underline;
-  padding-left: 4px;
 }
 
 .check-text-box {
